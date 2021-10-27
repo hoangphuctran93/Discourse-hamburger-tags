@@ -1,0 +1,38 @@
+hamburger_menu_tags_mode:
+  type: enum
+  default: "tag groups"
+  choices:
+    - "allowed category tags"
+    - "top tags"
+    - "tag groups"
+  description:
+    en: >-
+      Select the prefered view for tags in the hamburger menu.
+      <br><br>
+      <b>allowed category tags:</b> shows a list of allowed tags nested under each category
+      <br><br>
+      <b>top tags:</b> shows a flat list of the top tags used on the site
+      <br><br>
+      <b>tag groups:</b> shows a nested list of tag groups and their child tags
+max_top_tags:
+  default: 15
+  description:
+    en: "The maximimum number of tags to show in the hamburger menu <b>(top tags mode only)</b>"
+max_categories_to_show:
+  default: 6
+  description:
+    en: "The maximimum number of category + tag sections to show in the hamburger menu <b>(allowed category tags mode only)</b>"
+max_tags_per_category:
+  default: 6
+  description:
+    en: "The maximimum number of tags to show under each category in the hamburger menu <b>(allowed category tags mode only)</b>"
+max_tag_groups_to_show:
+  default: 6
+  description:
+    en: "The maximimum number of tags to show under tag group in the hamburger menu <b>(tag groups mode only)</b>"
+max_tags_per_group:
+  default: 6
+  description:
+    en: "The maximimum number of tag group sections to show in the hamburger menu <b>(tag groups mode only)</b>"
+hide_default_hamburger_categories:
+  default: false

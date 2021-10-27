@@ -1,0 +1,41 @@
+.menu-panel {
+  .category-with-tags .category-link {
+    display: block;
+    width: 100%;
+  }
+
+  .menu-links {
+    a[href*="/tags"] {
+      display: none;
+    }
+  }
+
+  .tag-group {
+    padding: 0.25em 0.5em;
+  }
+
+  .tag-link-item {
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25em 0.5em;
+    width: 50%;
+    box-sizing: border-box;
+    .tag-link {
+      display: inline-flex;
+      width: 100%;
+      &:hover {
+        color: var(--primary);
+      }
+    }
+  }
+
+  @if $hide_default_hamburger_categories == "true" {
+    .panel-body {
+      .category-links,
+      .categories-separator {
+        display: none;
+      }
+    }
+  }
+}

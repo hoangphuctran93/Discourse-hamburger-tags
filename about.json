@@ -1,8 +1,6 @@
 {
   "about_url": null,
-  "license_url": null,
-  "assets": {
-  },
+  "license_url": "https://github.com/hnb-ku/Discourse-hamburger-tags/blob/main/LICENSE.md",
   "name": "Hamburger Tags",
   "component": true
 }
